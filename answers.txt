@@ -2,3 +2,4 @@
 2.SELECT * FROM robots WHERE personality = 'anxious';
 3.SELECT * FROM recipes WHERE nut_free;
 4.SELECT COUNT(gluten_free) FROM recipes WHERE vegetarian = 'f';
+5.SELECT name, number_of_legs FROM animals ORDER BY number_of_legs DESC;
