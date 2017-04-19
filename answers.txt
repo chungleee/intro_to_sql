@@ -8,3 +8,4 @@
 8.SELECT name FROM robots WHERE name LIKE 'M%';
 9.SELECT COUNT(max_players) FROM board_games WHERE max_players >='8';
 10.SELECT name, swimming, egg_laying FROM animals WHERE swimming AND egg_laying;
+11.SELECT name, swimming, egg_laying, flying FROM animals WHERE NOT flying AND swimming AND egg_laying;
