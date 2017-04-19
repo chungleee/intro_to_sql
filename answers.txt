@@ -3,3 +3,4 @@
 3.SELECT * FROM recipes WHERE nut_free;
 4.SELECT COUNT(gluten_free) FROM recipes WHERE vegetarian = 'f';
 5.SELECT name, number_of_legs FROM animals ORDER BY number_of_legs DESC;
+6.SELECT name, mins_to_play FROM board_games ORDER BY mins_to_play ASC;
