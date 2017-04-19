@@ -5,3 +5,5 @@
 5.SELECT name, number_of_legs FROM animals ORDER BY number_of_legs DESC;
 6.SELECT name, mins_to_play FROM board_games ORDER BY mins_to_play ASC;
 7.SELECT name, minutes_required FROM recipes ORDER BY minutes_required DESC;
+8.SELECT name FROM robots WHERE name LIKE 'M%';
+9.
