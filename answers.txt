@@ -1,3 +1,4 @@
 1.SELECT * FROM robots WHERE source = 'The Hitchhikers''s Guide to the Galaxy';
 2.SELECT * FROM robots WHERE personality = 'anxious';
 3.SELECT * FROM recipes WHERE nut_free;
+4.SELECT COUNT(gluten_free) FROM recipes WHERE vegetarian = 'f';
